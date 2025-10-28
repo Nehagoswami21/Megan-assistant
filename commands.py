@@ -18,14 +18,14 @@ def handle_command(command):
 
 
         if prediction == "greet":
-            return f"Hello! I'm {get_user_profile('assistant_name', 'Nova')}. How can I help you?"
+            return f"Hello! I'm {get_user_profile('assistant_name', 'Megan')}. How can I help you?"
 
         elif prediction == "tell_time":
             now = datetime.datetime.now().strftime("%I:%M %p")
             return f"The time is {now}"
 
         elif prediction == "ask_name":
-            return f"My name is {get_user_profile('assistant_name', 'Nova')}."
+            return f"My name is {get_user_profile('assistant_name', 'Megan')}."
 
         elif prediction == "ask_creator":
             return f"I was created by {get_user_profile('creator_name', 'Neha Giri Goswami')}."

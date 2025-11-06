@@ -1,6 +1,6 @@
-# Nova Assistant 🤖
+# Megan Assistant 🤖
 
-Nova is a locally-running voice assistant built with Python, Whisper for speech recognition, and a custom-trained intent classifier. It can greet you, tell the time, play music, and even answer questions — all privately and offline.
+Megan is a locally-running voice assistant built with Python, Whisper for speech recognition, and a custom-trained intent classifier. It can greet you, tell the time, play music, and even answer questions — all privately and offline.
 
 ---
 
